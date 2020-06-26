@@ -12,6 +12,7 @@ export class BudgetItemListComponent implements OnInit {
     
     @Input() budgetItems: BudgetItem[];
     @Output() onDeleteClicked: EventEmitter<BudgetItem> = new EventEmitter<BudgetItem>();
+    @Output() update: EventEmitter<UpdateEvent> = new EventEmitter<UpdateEvent>();
 
     constructor(public dialog: MatDialog) { }
 
@@ -33,11 +34,17 @@ export class BudgetItemListComponent implements OnInit {
         
         dialogRef.afterClosed().subscribe(result => {
             if(result) {
-                // result is updated budget item
-                // replace the item with updated/submitted item from the form
-                this.budgetItems[this.budgetItems.indexOf(item)] = result;
+                this.update.emit({
+                    old: item,
+                    new: result
+                });
             }
         })
     }
 
+}
+
+export interface UpdateEvent {
+    old: BudgetItem;
+    new: BudgetItem;
 }
