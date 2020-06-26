@@ -3,7 +3,7 @@
 </div>
 
 <section class = "total-budget-section" >
-    <h2 class = "green" >$1000</h2>
+    <h2 [ngClass] = "{green: sum >= 0, red: sum < 0}" >${{getTotalExpense()}}</h2>
 </section>
 
 <section class="add-item-section">

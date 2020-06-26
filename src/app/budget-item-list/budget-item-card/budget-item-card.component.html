@@ -4,7 +4,7 @@
             <p>{{ item.description }}</p>
         </div>
         <div class="amount">
-            <p>{{ item.amount }}</p>
+            <p>{{ getAmount(item.amount) }}</p>
         </div>
     </div>
     <div class="x-icon-button" (click) = "onXButtonClick()"></div>

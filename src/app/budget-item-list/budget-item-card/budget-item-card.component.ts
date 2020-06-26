@@ -17,4 +17,11 @@ export class BudgetItemCardComponent implements OnInit {
     onXButtonClick(): void {
         this.xButtonClick.emit();
     }
+
+    getAmount(amount: number): number {
+        if(amount < 0) {
+            return amount * -1;
+        }
+        return amount;
+    }
 }
