@@ -15,6 +15,7 @@
 
 <hr style="margin-top: 0;">
 
-<app-budget-item-list [budgetItems] = "budgetItems" >
+<app-budget-item-list [budgetItems] = "budgetItems" 
+    (onDeleteClicked) = "deleteItem($event)" >
 
 </app-budget-item-list>
