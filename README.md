@@ -2,8 +2,33 @@
 
 > A simple budget app created using angular js
 
+## Dependencies
+* angular
+* bulma
+* angular material
+* SCSS
+* typescript
 
+## Usage
+First Install Angular CLI
+```
+npm install -g @angular/cli
+```
+Next clone the Repo and move into the directory
+```
+$ git clone https://github.com/VinayakBorhade/node-rest-shop.git
+$ cd node-rest-shop
+```
 
+Then do the following to install dependencies
+```
+npm install .
+```
+Run the Application with bash script (give all the permissions)
+```
+sudo chmod 777 run.sh
+./run.sh
+```
 
 ## Demo
 
