@@ -7,7 +7,9 @@
 
 ## Demo
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Add Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/add.gif)
+![Edit Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/edit.gif)
+![Delete Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/delete.gif)
 
 ## Development
 
