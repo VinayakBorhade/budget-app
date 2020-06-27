@@ -76,4 +76,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Youtube Tutorial - https://www.youtube.com/watch?v=sU4z4Ti-8OQ
 
+<<<<<<< HEAD
 Angular Docs - https://angular.io/docs
+=======
+Angular Docs - https://angular.io/docs
+>>>>>>> 6c5295f250d81e5dc09280eb18a35fad97462c9f
