@@ -9,6 +9,9 @@
 * SCSS
 * typescript
 
+## Pre-requisite
+This project was developed with the NPM version 6.14.5 and Node version 12.4.0
+
 ## Usage
 First Install Angular CLI
 ```
@@ -16,8 +19,8 @@ npm install -g @angular/cli
 ```
 Next clone the Repo and move into the directory
 ```
-$ git clone https://github.com/VinayakBorhade/node-rest-shop.git
-$ cd node-rest-shop
+$ git clone https://github.com/VinayakBorhade/budget-app.git
+$ cd budget-app
 ```
 
 Then do the following to install dependencies
