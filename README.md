@@ -7,8 +7,13 @@
 
 ## Demo
 
+### Adding Items
 ![Add Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/add.gif)
+
+### Editing Items 
 ![Edit Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/edit.gif)
+
+### Deleting Items
 ![Delete Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/delete.gif)
 
 ## Development
