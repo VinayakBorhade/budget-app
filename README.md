@@ -36,13 +36,13 @@ sudo chmod 777 run.sh
 ## Demo
 
 ### Adding Items
-![Add Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/add.gif)
+![Add Item](https://github.com/VinayakBorhade/budget-app/blob/master/budget-app-gif/add.gif?raw=true)
 
 ### Editing Items 
-![Edit Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/edit.gif)
+![Edit Item](https://github.com/VinayakBorhade/budget-app/blob/master/budget-app-gif/edit.gif?raw=true)
 
 ### Deleting Items
-![Delete Item](https://github.com/VinayakBorhade/test_readme/blob/master/budget-app-gif/delete.gif)
+![Delete Item](https://github.com/VinayakBorhade/budget-app/blob/master/budget-app-gif/delete.gif?raw=true)
 
 ## Development
 
